@@ -1,0 +1,18 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "RM2 Fall 2024 Streaming Media Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "author": "Sean Alexis Balayon",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
